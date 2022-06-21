@@ -60,6 +60,51 @@
     color: #9098B1;
 }
 
+/* Form */
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.form input {
+    color: #9098B1;
+    height: 45px;
+    width: 100%;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.label-input {
+    border: 3px solid #EBF0FF;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+/* Cor PlaceHolder */
+
+input::placeholder {
+    color: #9098B1;
+  }
+
+/* input sem outline */
+
+input:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+/* Icone */
+
+.icon-modify {
+    color: #9098B1;
+    padding: 0px 15px 0px 10px;
+}
+
 /* Botão */
 
 .btn {
