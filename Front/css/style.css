@@ -46,8 +46,9 @@
 
 .titulo {
     color: #223263;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: bold;
+    margin: 10px;
 }
 
 /* Descrição*/
@@ -58,6 +59,12 @@
     color: #fff;
     line-height: 30px;
     color: #9098B1;
+    padding-bottom: 5px;
+}
+
+.descricao a {
+    color: #40BFFF;
+    text-decoration: none;
 }
 
 /* Form */
@@ -65,7 +72,8 @@
 .form{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
+    margin: 5px;
 }
 
 .form input {
@@ -83,12 +91,14 @@
     align-items: center;
     margin: 8px;
     border-radius: 5px;
+    margin: 15px;
 }
 
 /* Cor PlaceHolder */
 
 input::placeholder {
     color: #9098B1;
+
   }
 
 /* input sem outline */
@@ -112,10 +122,10 @@ input:focus, input:focus {
     border-radius: 5px;
     color: #fff;
     font-size: 12px;
-    padding: 10px 50px;
+    padding: 15px 50px;
     cursor: pointer;
     font-weight: bold;
-    width: 100%;
+    width: 90%;
     align-self: center;
     border: none;
     margin-top: 1rem;
